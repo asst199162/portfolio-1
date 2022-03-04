@@ -4,24 +4,23 @@
  */
 
 // Стили для файла с примером HTML-фрагмента
-@import "./example";
 
-@import "../sass/base/reset"; //сброс стилей
-@import "../sass/utils/varibles"; //цвета
-@import "../sass/utils/mixins";
-@import "../sass/base/common"; //body
-@import "../sass/utils/placeholder"; //animation
+@import '../sass/base/reset'; //сброс стилей
+@import '../sass/utils/varibles'; //цвета
+@import '../sass/utils/mixins';
+@import '../sass/base/common'; //body
+@import '../sass/utils/placeholder'; //animation
 
-@import "../sass/components/container";
-@import "../sass/components/sections";
+@import '../sass/components/container';
+@import '../sass/components/sections';
 // @import "../sass/components/button";
 
-@import "../sass/layout/header";
-@import "../sass/layout/hero";
-@import "../sass/layout/about"; //4
-@import "../sass/layout/skills";
-@import "../sass/layout/portfolio"; //6
-@import "../sass/layout/contact";
+@import '../sass/layout/header';
+@import '../sass/layout/hero';
+@import '../sass/layout/about'; //4
+@import '../sass/layout/skills';
+@import '../sass/layout/portfolio'; //6
+@import '../sass/layout/contact';
 
 // @import "../sass/layout/modal/backdrop";
 // @import "../sass/layout/modal/modal";

@@ -153,14 +153,10 @@ body {
   }
 }
 
-.header__list {
+.header {
   display: flex;
   border-bottom: 1px solid #757575;
   justify-content: center;
-}
-
-.header__item + .header__item {
-  margin-left: 75px;
 }
 
 .hero {
@@ -444,6 +440,12 @@ body {
   align-items: baseline;
 }
 
+.portfolio__link {
+  display: block;
+  text-align: center;
+  height: 100%;
+}
+
 .portfolio__img {
   height: 300px;
   width: 300px;
@@ -453,6 +455,7 @@ body {
   text-align: center;
   border: 2px solid black;
   border-radius: 20px;
+  background-color: #b4aff7;
 }
 
 /*# sourceMappingURL=/src.e31bb0bc.css.map */
